@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" >
+
+    <Grid Background="Beige" RenderTransformOrigin="0.503,0.64">
+        <TextBlock HorizontalAlignment="Left" Height="52" Margin="245,55,0,0" TextWrapping="Wrap" Text="Hello! Who are you?" VerticalAlignment="Top" Width="545" FontSize="30" FontWeight="Bold"/>
+        <Button HorizontalAlignment="Left" Height="52" Width="200" Margin="56,215,0,152" Background="DarkCyan" Content="Customer" FontSize="30" FontStyle="Oblique" FontWeight="Bold" Click="CustomerButton"></Button>
+        <Button HorizontalAlignment="Left" Height="52" Width="200" Margin="518,215,0,152" Background="DarkCyan" Content="Admin" FontSize="30" FontStyle="Oblique" FontWeight="Bold" Click="AdminButton" ></Button>
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp.Windows.Basket"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp.Windows"
+        mc:Ignorable="d"
+        Title="Basket" Height="559.947" Width="650">
+    <Grid Background="Beige" >
+        <DataGrid HorizontalAlignment="Left" Height="331" Margin="49,109,0,0" VerticalAlignment="Top" Width="542" Name="dataGrid2">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Title" Width="SizeToCells" IsReadOnly="True" MinWidth="200" Binding="{Binding Title}"/>
+            <DataGridTextColumn Header="Author" Width="SizeToCells" IsReadOnly="True" MinWidth="200" Binding="{Binding Author}"/>
+            <DataGridTextColumn Header="Price" Width="SizeToCells" IsReadOnly="True" MinWidth="40" Binding="{Binding Price}"/>
+            <DataGridTextColumn Header="Amount" Width="SizeToCells" IsReadOnly="True" MinWidth="200" Binding="{Binding Amount}"/>
+        </DataGrid.Columns>
+        <DataGrid.CellStyle>
+            <Style TargetType="DataGridCell">
+                <Style.Triggers>
+                    <Trigger Property="IsSelected" Value="True">
+                        <Setter Property="BorderThickness" Value="0"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </DataGrid.CellStyle>
+        </DataGrid>
+        <Button Background="DarkCyan" Content="Buy" HorizontalAlignment="Left" Height="46" Margin="49,24,0,0" VerticalAlignment="Top" Width="198" Click="BuyButton" FontSize="15" FontStyle="Oblique" FontWeight="Bold" />
+        <Button Background="DarkCyan" Content="Order shipping" HorizontalAlignment="Left" Height="46" Margin="366,24,0,0" VerticalAlignment="Top" Width="225" Click="OrderButton" FontSize="15" FontStyle="Oblique" FontWeight="Bold" />
+        <Button Content="x" HorizontalAlignment="Left" Margin="605,-15,0,527" Background="DarkCyan" Width="34" Click="ExitButton2" RenderTransformOrigin="2.647,0.353" FontWeight="Bold" />
+        <Button Background="DarkCyan" Content="Add" HorizontalAlignment="Left" Height="41" Margin="49,461,0,0" VerticalAlignment="Top" Width="163" Click="AddButton" FontSize="15" FontStyle="Oblique" FontWeight="Bold" />
+        <TextBox Text="Book" HorizontalAlignment="Left" Width="268" Margin="254,461,0,27" Background="LightGray" Name="TitleBox2" FontSize="20" />
+    </Grid>
+</Window>
