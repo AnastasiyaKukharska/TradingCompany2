@@ -16,5 +16,6 @@ namespace DAL.Interfaces
         void DeleteBasket(int id);
         int UD(string username);
          void AddBook(string t, int id);
+        BasketDTO GetBasket2(int id);
     }
 }
