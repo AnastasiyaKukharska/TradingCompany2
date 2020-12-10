@@ -33,6 +33,10 @@ namespace BusinessLogic
         {
             _bookDal.BD(titl);
         }
+        public UserDTO GetUserByLogin(string username)
+        {
+            return _userDal.GetUserByLogin(username);
+        }
 
     }
 }
