@@ -1,0 +1,15 @@
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\BusinessLogic.dll
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\DAL.dll
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\Dalef.dll
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\DTO.dll
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\MVC2.dll
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\BusinessLogic.pdb
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\BusinessLogic.dll.config
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\DAL.pdb
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\DAL.dll.config
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\DTO.pdb
+D:\Курсова\MY\Kursova\MVC.Test\bin\Debug\netcoreapp2.1\DTO.dll.config
+D:\Курсова\MY\Kursova\MVC.Test\obj\Debug\netcoreapp2.1\MVC.Test.csprojAssemblyReference.cache
+D:\Курсова\MY\Kursova\MVC.Test\obj\Debug\netcoreapp2.1\MVC.Test.csproj.CoreCompileInputs.cache
+D:\Курсова\MY\Kursova\MVC.Test\obj\Debug\netcoreapp2.1\MVC.Test.AssemblyInfoInputs.cache
+D:\Курсова\MY\Kursova\MVC.Test\obj\Debug\netcoreapp2.1\MVC.Test.AssemblyInfo.cs
