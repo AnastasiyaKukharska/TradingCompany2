@@ -12,6 +12,7 @@ namespace BusinessLogic
         int UID(string username);
         int CD(string category);
         int BD(string title);
+        UserDTO GetUserByLogin(string username);
 
     }
 }
