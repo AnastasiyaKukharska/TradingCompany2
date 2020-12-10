@@ -16,5 +16,6 @@ namespace BusinessLogic
             List<BooksDTO> FindBook(string text, string id);
             bool Login(string username, string password);
             void AddBook(string t, int id);
+            BasketDTO GetBasket2(int id);
         }
 }
