@@ -52,5 +52,9 @@ namespace BusinessLogic
         {
             _basketDal.AddBook(t,  id);
         }
+                public BasketDTO GetBasket2(int id)
+        {
+            return _basketDal.GetBasketById2(id);
+        }
     }
 }
