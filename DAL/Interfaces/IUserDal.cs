@@ -11,5 +11,6 @@ namespace DAL.Interfaces
     {
         UserDTO CreateUser( string username, string password);
         bool Login(string username, string password);
+        UserDTO GetUserByLogin(string username);
     }
 }
